@@ -1,11 +1,18 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main -  prints alx, followed by a new line
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - function that will print the alphabet 10 times 
+ *
  */
-int main(void)
+
+void print_alphabet_x10(void) 
 {
-	_putchar("alx");
-	return(0);
+	int line, ch;
+
+	for (line = 0; line <= 9; ++line)
+	{
+		for (ch = 'a'; ch <= 'z'; ++ch)
+			_putchar(ch);
+		_putchar('\n'); 
+	}
 }
