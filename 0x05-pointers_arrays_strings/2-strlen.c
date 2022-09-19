@@ -9,6 +9,7 @@
 size_t _strlen(const char *str)
 {
 	int i;
+	int s;
 
 	i = 0;
 
