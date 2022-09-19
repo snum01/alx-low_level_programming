@@ -6,10 +6,9 @@
  *
  * Return: the length of the string
  */
-size_t _strlen(const char *str)
+int _strlen(char *s)
 {
 	int i;
-	int s;
 
 	i = 0;
 
